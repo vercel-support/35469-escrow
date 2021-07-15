@@ -1,0 +1,20 @@
+{
+    "cleanUrls": true,
+    "rewrites": [
+        {
+            "source": "/:network/contract/create",
+            "destination": "/_network/contract/create"
+        },
+        {
+            "source": "/:network/contract/show/:id",
+            "destination": "/_network/contract/show/_id_d_plus"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/detect/contract/create",
+            "permanent": false
+        }
+    ]
+}

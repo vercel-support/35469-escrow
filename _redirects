@@ -1,0 +1,3 @@
+/ /detect/contract/create 301
+/:network/contract/create /_network/contract/create.html 200
+/:network/contract/show/:id /_network/contract/show/_id_d_plus.html 200
