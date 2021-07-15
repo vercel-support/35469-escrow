@@ -14,7 +14,7 @@
         {
             "source": "/",
             "destination": "/detect/contract/create",
-            "status": 301
+            "permanent": false
         }
     ]
 }
